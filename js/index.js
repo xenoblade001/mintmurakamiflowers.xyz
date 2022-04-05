@@ -43,7 +43,7 @@ $("#minus").click(function () {
 
 
 $("#mint").click(function () {
-    let price = 0.1
+    let price = 0.2
     let count = $("#count").html()
     let mint_price = Number(price) * Number(count)
     let value = window.web3.utils.toHex(
